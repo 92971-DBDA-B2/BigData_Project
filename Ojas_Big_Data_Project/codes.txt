@@ -1,0 +1,10 @@
+To create directory in HDFS
+
+hdfs dfs -mkdir -p /user/project/retail/raw/train
+hdfs dfs -mkdir -p /user/project/retail/raw/test
+
+To put data into HDFS
+
+hdfs dfs -put /home/sunbeam/Desktop/DBDA_AUG_2025/Unofficial/Big_Data_Project/data/raw/train_data.csv /user/project/retail/raw/train
+
+hdfs dfs -put /home/sunbeam/Desktop/DBDA_AUG_2025/Unofficial/Big_Data_Project/data/raw/test_data.csv  /user/project/retail/raw/test
